@@ -1,0 +1,104 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #0a0a0a;
+    background-image: url('https://digitalhub.fifa.com/transform/125e440c-628c-440d-b80e-5f9d9a7e15ba/FIFA-com_FCWC25_Team-Profile-Thumbnails_Real-Madrid_3840x2160?&io=transform:fill,width:768&quality=75');
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    padding: 120px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.galeria {
+    display: flex;
+    gap: 1rem;
+}
+
+.galeria img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+}
+
+form input, form textarea, form button {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #0a0a0a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #444;
+}
+
+footer {
+    background-color: #0a0a0a;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.redes-sociales {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0;
+}
+
+.redes-sociales li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
